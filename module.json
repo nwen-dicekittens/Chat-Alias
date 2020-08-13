@@ -1,0 +1,15 @@
+{
+  "name": "chat-alias",
+  "title": "Chat Alias",
+  "description": "Apply automatic replace on chat message. Customizable by regular expressions.",
+  "author": "Dicekittens",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "0.7.0",
+  "scripts": [
+    "scripts/chatalias.js"
+  ],
+  "url": "https://github.com/nwen-dicekittens/Chat-Alias",
+  "manifest": "https://github.com/nwen-dicekittens/Chat-Alias/raw/master/module.json",
+  "download": "https://github.com/nwen-dicekittens/Chat-Alias/releases/latest/download/chat-alias.zip"
+}
