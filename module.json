@@ -3,7 +3,7 @@
   "title": "Chat Alias",
   "description": "Apply automatic replace on chat message. Customizable by regular expressions.",
   "author": "Dicekittens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.7.0",
   "scripts": [
