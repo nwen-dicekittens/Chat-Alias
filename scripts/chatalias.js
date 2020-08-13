@@ -37,7 +37,7 @@ Hooks.on("ready", async function () {
     MODULE_DATA.CHAT_ALIAS.ParseHTML = function (htmlstr) {
         var tmp = document.createElement("div");
         tmp.innerHTML = htmlstr;
-        return JSON.parse(tmp.innerText.replaceAll("\\", "\\\\"));
+        return JSON.parse(tmp.innerText.replace(/\s/g, " ").replaceAll("\\", "\\\\"));
     };
     MODULE_DATA.CHAT_ALIAS.GLOBAL_ALIAS = MODULE_DATA.CHAT_ALIAS.ParseHTML(MODULE_DATA.CHAT_ALIAS.GLOBAL_DATA.data.content);
     MODULE_DATA.CHAT_ALIAS.GLOBAL_ALIAS.forEach(function (item, index) {
